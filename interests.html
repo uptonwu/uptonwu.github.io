@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Ziheng Wu's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Ziheng Wu is currently a research assistant at Peking University">
+  <meta name="keywords" content="Ziheng Wu, 吴子恒, zihengwu, wuziheng, HPC, AI, combustion, Beihang University, AECT, Peking University, AI for Thermofluid Physics Lab">
+  <meta name="author" content="Ziheng Wu" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.png">
+  
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ffffff;
+      float: left;
+      width: 300px;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #ffffff;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- !Sidebar/menu -->
+
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b>RUI</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">Ziheng</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !Pics -->
+
+
+
+<div style="margin-left:180px;margin-top:100px">
+  <h2>Test</h2>
+
+  <br>
+
+  <!-- <div class="w3-container w3-padding-32" >
+    <img src="images/Gallery/xinjiang_dog.jpg" width="500px"/>
+
+    <div style="position:relative; z-index:2; left:10px; top:10px">Altay, Xinjiang</div>  
+  </div> -->
+
+  <div class="gallery">
+    <a target="_blank" href="images/Gallery/graduate_picture.jpg">
+      <img src="images/Gallery/graduate_picture.jpg" alt="graduate_picture" width="400" height="300">
+    </a>
+    <div class="desc">Graduate Picture, Beijing, 2023</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/Gallery/graduate_picture_2.jpg">
+      <img src="images/Gallery/graduate_picture_2.jpg" alt="graduate_picture_2" width="400" height="300">
+    </a>
+    <div class="desc">Graduate Picture 2, Beijing, 2023</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/Gallery/3rd_symposium_on_ammonia_energy.jpg">
+      <img src="images/Gallery/3rd_symposium_on_ammonia_energy.jpg" alt="3rd_symposium_on_ammonia_energy" width="400" height="400">
+    </a>
+    <div class="desc">3rd symposium on ammonia energy, Shanghai, 2024</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images/Gallery/BUAA-NUS_Bilateral_Workshop_on_Simulation_and_Digitisation_in_2023.jpg">
+      <img src="images/Gallery/BUAA-NUS_Bilateral_Workshop_on_Simulation_and_Digitisation_in_2023.jpg" alt="BUAA-NUS_Bilateral_Workshop" width="400" height="300">
+    </a>
+    <div class="desc">BUAA-NUS Bilateral Workshop, Beijing, 2023</div>
+  </div>
+
+
+  <div class="gallery">
+    <a target="_blank" href="images/Gallery/Undergraduate_competition_work.jpg">
+      <img src="images/Gallery/Undergraduate_competition_work.jpg" alt="Undergraduate_competition_work" width="300" height="400">
+    </a>
+    <div class="desc">Undergraduate Competition Work, Harbin, 2019</div>
+  </div>
+  <!-- <img src="images/Gallery/fellow_peers.jpg" width="500px"/>
+
+  <div style="position:relative; z-index:2; left:10px; top:10px">Future-fellow peers, FAST LAB, Huzhou</div> -->
+
+
+</div>
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
